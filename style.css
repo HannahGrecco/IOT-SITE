@@ -1,5 +1,50 @@
+* {
+  margin: 0;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: rgb(66, 66, 66);
-  color: white;
+  font-family: 'Khula', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Kite One', sans-serif;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 1.5rem;
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+}
+.title h1 {
+  width: 30%;
+  padding-left: 8rem;
+  padding-top: 5rem;
+  font-size: 64px;
+}
+.title img {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.content {
+  height: 50vh;
+  background: #3a7fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iot-text {
+  background: white;
+  width: 60%;
+  font-size: 2rem;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 25px 25px 10px #244fa0;
 }
