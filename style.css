@@ -109,6 +109,10 @@ ul {
   border-radius: 30px;
   padding: 20px;
   box-shadow: 25px 25px 10px #244fa0;
+  transition: transform 0.3s ease;
+}
+.card1:hover {
+  transform: scale(1.05);
 }
 .card1 p {
   text-align: center;
@@ -119,6 +123,10 @@ ul {
   border-radius: 30px;
   padding: 20px;
   box-shadow: 25px 25px 10px #244fa0;
+  transition: transform 0.3s ease;
+}
+.card2:hover {
+  transform: scale(1.05);
 }
 .card2 p {
   text-align: center;
@@ -129,6 +137,10 @@ ul {
   border-radius: 30px;
   padding: 20px;
   box-shadow: 25px 25px 10px #244fa0;
+  transition: transform 0.3s ease;
+}
+.card3:hover {
+  transform: scale(1.05);
 }
 .card3 p {
   text-align: center;
