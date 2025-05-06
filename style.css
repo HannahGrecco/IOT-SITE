@@ -4,12 +4,12 @@
 }
 
 body {
-  font-family: "Khula", sans-serif;
+  font-family: 'Khula', sans-serif;
 }
 
 h1,
 h2 {
-  font-family: "Kite One", sans-serif;
+  font-family: 'Kite One', sans-serif;
   font-weight: 400;
   font-size: 64px;
 }
@@ -58,7 +58,7 @@ ul {
 /* ======== SECOND PAGE ========== */
 .second-page {
   display: flex;
-  height: 100vh;
+  height: 80vh;
 }
 
 .second-page div {
@@ -84,19 +84,24 @@ ul {
 .second-page ul {
   font-size: 2.5rem;
 }
+
 /* ======== THIRD PAGE ========== */
 .third-page {
   background: #3a7fff;
-  padding: 30px;
   height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .third-page h2 {
   background-color: white;
   border-radius: 30px;
   padding: 20px;
+  width: 80%;
   text-align: center;
   margin-bottom: 5rem;
-  margin-top: 5rem;
 }
 
 .cards {
@@ -105,49 +110,27 @@ ul {
   margin-left: 1rem;
   justify-content: center;
 }
-.card1 {
+.card {
   background-color: white;
+  width: 25%;
   border-radius: 30px;
   padding: 20px;
   box-shadow: 25px 25px 10px #244fa0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   transition: transform 0.3s ease;
 }
-.card1:hover {
+.card:hover {
   transform: scale(1.05);
 }
-.card1 p {
+.card p {
   text-align: center;
-  font-size: 30px;
+  font-size: 2.5rem;
 }
-.card2 {
-  background-color: white;
-  border-radius: 30px;
-  padding: 20px;
-  box-shadow: 25px 25px 10px #244fa0;
-  transition: transform 0.3s ease;
-}
-.card2:hover {
-  transform: scale(1.05);
-}
-.card2 p {
-  text-align: center;
-  font-size: 30px;
-}
-.card3 {
-  background-color: white;
-  border-radius: 30px;
-  padding: 20px;
-  box-shadow: 25px 25px 10px #244fa0;
-  transition: transform 0.3s ease;
-}
-.card3:hover {
-  transform: scale(1.05);
-}
-.card3 p {
-  text-align: center;
-  font-size: 30px;
-}
-.card3 img {
-  margin-left: 2rem;
+
+.card img {
+  height: 20rem;
 }
 /* ======== FOUTRH PAGE ========== */
