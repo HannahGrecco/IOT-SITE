@@ -4,12 +4,12 @@
 }
 
 body {
-  font-family: 'Khula', sans-serif;
+  font-family: "Khula", sans-serif;
 }
 
 h1,
 h2 {
-  font-family: 'Kite One', sans-serif;
+  font-family: "Kite One", sans-serif;
   font-weight: 400;
   font-size: 64px;
 }
@@ -58,7 +58,7 @@ ul {
 /* ======== SECOND PAGE ========== */
 .second-page {
   display: flex;
-  height: 80vh;
+  height: 100vh;
 }
 
 .second-page div {
